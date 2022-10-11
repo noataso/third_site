@@ -1,0 +1,33 @@
+.tab{
+    width:500px;
+    margin:0 auto 0;
+}
+.tab-nav{
+    display:flex;
+}
+.tab-nav-item{
+    margin-bottom:0;
+    margin-right:5px;
+    padding:5px 10px 5px;
+    background: #000;
+    color:#fff;
+    border-radius:5px 5px 0 0;
+}
+.tab-nav-item.is-active{
+    background: #fff;
+    color:#000;
+    border:1px solid #000;
+}
+.tab-contents{
+    background: pink;
+    border:2px solid green;
+    padding:10px;
+    border-radius:0 0 5px 5px;
+}
+.tab-contents-item{
+    display:none;
+}
+
+.tab-contents-item.is-show{
+    display:block;
+}
